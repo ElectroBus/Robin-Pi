@@ -1,0 +1,30 @@
+I fyou see this message when attempting to connect to your Pi over ssh in cmd, : 
+
+"""
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@       WARNING: POSSIBLE DNS SPOOFING DETECTED!          @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+The ECDSA host key for raspberrypi.local has changed,
+and the key for the corresponding IP address fe80::56e8:8a03:dab4:6912%15
+is unknown. This could either mean that
+DNS SPOOFING is happening or the IP address for the host
+and its host key have changed at the same time.
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the ECDSA key sent by the remote host is
+SHA256:BAB4UBJ5vCuciXPrN00qjPCmkq7Oh6Ty7v4mT7YLOr4.
+Please contact your system administrator.
+Add correct host key in C:\\Users\\Terock/.ssh/known_hosts to get rid of this message.
+Offending ECDSA key in C:\\Users\\Terock/.ssh/known_hosts:1
+ECDSA host key for raspberrypi.local has changed and you have requested strict checking.
+Host key verification failed.
+
+"""
+
+this file will help fix this issue and explain why it might have happened.
+
